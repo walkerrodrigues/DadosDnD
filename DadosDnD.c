@@ -8,10 +8,10 @@ void main () {
 setlocale (LC_ALL, "Portuguese");
 
 int a, b, c, d, soma;
-printf ("Pronto para começar?\n");
+printf ("Pronto para comeÃ§ar?\n");
 system ("pause");
 
-//quatro números aleatórios entre 1-5
+//quatro nÃºmeros aleatÃ³rios entre 1-5
 
 printf ("Rolando 4 dados...\n");
 srand (time(NULL));
@@ -41,7 +41,7 @@ printf ("Os resultados foram: %i, %i, %i, %i!\n", a, b, c, d);
         d=0;
         }
 
-    if (a == b && b == c && c == d) {
+    if (a == b && b == c && c == d){
         a=0;
         }
 
